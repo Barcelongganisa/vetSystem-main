@@ -77,6 +77,22 @@ session_start();
                     <label>Select a date:</label>
                     <input type="date" name="appointment-date" id="appointment-date">
                 </div>
+
+                <div class="time">
+                    <label>Select a time:</label>
+
+                    <select name="service" id="service">
+                        <option value="" disabled selected>Select a Time</option>
+                        <option value="1">9:00AM-10:00AM</option>
+                        <option value="2">10:00AM-11:00AM</option>
+                        <option value="3">11:00AM-12NN</option>
+                        <option value="4">1:00PM-2:00PM</option>
+                        <option value="5">2:00PM-3:00PM</option>
+                        <option value="6">3:00PM-4:00PM</option>
+                        <option value="7">4:00PM-5:00PM</option>
+                        <option value="8">5:00PM-6:00PM</option>
+                    </select>
+                </div>
                     
                 <div class="submit">
                     <button type="submit" class="submit-btn">Submit Form</button>

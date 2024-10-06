@@ -131,7 +131,7 @@ section {
   color: #7f8c8d;
 }
 
-.pet, .breed, .service, .date {
+.pet, .breed, .service, .date, .time {
   margin-bottom: 15px; /* Added uniform margin for all sections */
   padding-left: 7px;
   padding-right: 7px;
@@ -187,6 +187,19 @@ section {
   margin-top: 5px; /* Spacing between label and input */
 }
 
+.time select{
+  background-color: #ffffff;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.time{
+  margin-bottom: 15px;
+}
+
 .service select,
 .date input[type="date"] {/*dito yung sa calendar*/
   width: 100%;
@@ -219,16 +232,15 @@ section {
 
 .signup-section {
     border: 0px solid #ccc;   /* Add a border to separate the section */
-    /*padding-left: 10px;            /* Add space inside the box */
     border-radius: 10px;      /* Rounded corners */
     background-color: #3b7a79;/* Light background color to differentiate */
     width: 300px;             /* Set a fixed width */
-    margin: 20px auto 0;      /* Center the box and add space above */
+    margin: 15px auto 0;      /* Center the box and add space above */
     text-align: center; 
 }
 
 .signup-section p {
-  font-size: 25px;
+  font-size: 20px;
   color: #000000;
   
 }
