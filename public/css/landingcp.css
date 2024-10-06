@@ -1,0 +1,245 @@
+@media (min-width: 360px) and (max-width: 698px) {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .hamburger {
+    display: flex;
+    position: absolute;
+    top: 5vh;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  .nav-list.show {
+    display: flex;
+  }
+  .nav {
+    height: 10vh;
+    width: 100%;
+    background-color: #97e2e1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-pic {
+    height: auto;
+    max-height: 10vh;
+    display: flex;
+    justify-content: start;
+  }
+  .nav-list {
+    display: none; /* Hide the nav items by default */
+    flex-direction: column; /* Stack vertically when shown */
+    align-items: center;
+    position: absolute; /* Show on top */
+    background-color: #97e2e1;
+    top: 7vh;
+    width: 100%; /* Full width of the screen */
+    gap: 25px; /* Adjust gap for mobile */
+    padding: 20px;
+  }
+  .nav-list li a {
+    font-size: 25px; /* Adjust font size for mobile */
+    padding: 5px 10px;
+  }
+  .bookB {
+    font-size: 14px; /* Adjust button size for mobile */
+  }
+  .section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    background-color: #ffffff;
+    scroll-margin-top: 8vh; /* Space for fixed navigation bar */
+  }
+  .home {
+    background-color: antiquewhite;
+  }
+  .picContainer {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border: 5px solid #262626;
+    background: black;
+  }
+  .text-container h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .text-container p {
+    font-size: 15px;
+    color: #555;
+  }
+  .aboutus {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(
+        62.68% 62.68% at 50% 50%,
+        #a6f8f6 10%,
+        rgba(116, 204, 202, 0.698039) 44%,
+        rgba(82, 154, 153, 0.84902) 73%,
+        #179896 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 35%;
+    width: 100%;
+    text-align: center;
+    font-size: 4vw;
+  }
+
+  .about-container p {
+    max-width: 70%;
+    font-size: 3vw;
+  }
+  .announce-container {
+    height: 65%;
+    width: 100%;
+    text-align: center;
+    font-size: 4vw;
+  }
+  .services {
+    background-color: azure;
+  }
+  .loccon {
+    background-color: blue;
+  }
+  .book {
+    background-color: bisque;
+  }
+}
+@media (max-width: 360px) {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .hamburger {
+    display: flex;
+    position: absolute;
+    top: 4vh;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  .nav-list.show {
+    display: flex;
+  }
+  .nav {
+    height: 8vh;
+    width: 100%;
+    background-color: #97e2e1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-pic {
+    height: auto;
+    max-height: 8vh;
+    display: flex;
+    justify-content: start;
+  }
+  .nav-list {
+    display: none; /* Hide the nav items by default */
+    flex-direction: column; /* Stack vertically when shown */
+    align-items: center;
+    background-color: #97e2e1;
+    position: absolute; /* Show on top */
+    top: 5vh;
+    width: 100%; /* Full width of the screen */
+    gap: 25px; /* Adjust gap for mobile */
+    padding: 20px;
+  }
+  .nav-list li a {
+    font-size: 18px; /* Adjust font size for mobile */
+    padding: 4px 18px;
+  }
+  .bookB {
+    font-size: 14px; /* Adjust button size for mobile */
+  }
+  .section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    background-color: #ffffff;
+    scroll-margin-top: 8vh; /* Space for fixed navigation bar */
+  }
+  .home {
+    background-color: antiquewhite;
+  }
+  /* Adjust the width of the picContainer */
+  .picContainer {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: 5px solid #262626;
+    background: black;
+  }
+  .text-container h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .text-container p {
+    font-size: 14px;
+    color: #555;
+  }
+  .aboutus {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(
+        62.68% 62.68% at 50% 50%,
+        #a6f8f6 10%,
+        rgba(116, 204, 202, 0.698039) 44%,
+        rgba(82, 154, 153, 0.84902) 73%,
+        #179896 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 35%;
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+  }
+
+  .about-container p {
+    max-width: 70%;
+    font-size: 2vw;
+  }
+  .announce-container {
+    height: 65%;
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+  }
+  .services {
+    background-color: azure;
+  }
+  .loccon {
+    background-color: blue;
+  }
+  .book {
+    background-color: bisque;
+  }
+}

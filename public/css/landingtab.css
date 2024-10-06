@@ -1,0 +1,126 @@
+@media (min-width: 699px) and (max-width: 991px) {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .hamburger {
+    display: flex;
+    position: absolute;
+    top: 5vh;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  .nav-list.show {
+    display: flex;
+  }
+  .nav {
+    height: 10vh;
+    width: 100%;
+    background-color: #97e2e1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-pic {
+    height: auto;
+    max-height: 10vh;
+    display: flex;
+    justify-content: start;
+  }
+  .nav-list {
+    display: none; /* Hide the nav items by default */
+    flex-direction: column; /* Stack vertically when shown */
+    align-items: center;
+    position: absolute; /* Show on top */
+    background-color: #97e2e1;
+    top: 7vh;
+    width: 100%; /* Full width of the screen */
+    gap: 25px; /* Adjust gap for mobile */
+    padding: 20px;
+  }
+  .nav-list li a {
+    font-size: 25px; /* Adjust font size for mobile */
+    padding: 5px 10px;
+  }
+  .bookB {
+    font-size: 14px; /* Adjust button size for mobile */
+  }
+  .section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    scroll-margin-top: 10vh; /* Space for fixed navigation bar */
+  }
+  .home {
+    background: radial-gradient(
+        62.68% 62.68% at 50% 50%,
+        #a6f8f6 10%,
+        rgba(116, 204, 202, 0.698039) 44%,
+        rgba(82, 154, 153, 0.84902) 73%,
+        #179896 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-container {
+    width: 80vw; /* Adjust width as necessary */
+    text-align: center; /* Center-align text */
+    transition: 1s;
+  }
+  .text-container h1 {
+    font-size: 3vw;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  .text-container p {
+    font-size: 2vw;
+    color: #555;
+  }
+  .aboutus {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(
+        62.68% 62.68% at 50% 50%,
+        #a6f8f6 10%,
+        rgba(116, 204, 202, 0.698039) 44%,
+        rgba(82, 154, 153, 0.84902) 73%,
+        #179896 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+  }
+
+  .about-container p {
+    max-width: 70%;
+    font-size: 2vw;
+  }
+  .announce-container {
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+  }
+  .services {
+    background-color: azure;
+  }
+  .loccon {
+    background-color: blue;
+  }
+  .book {
+    background-color: bisque;
+  }
+}

@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.user-cont {
+  height: 100vh;
+  width: 20%;
+  background-color: #306867;
+  flex-direction: column;
+}
+.content {
+  overflow-y: auto;
+  flex-direction: column;
+  height: 100vh;
+  width: 80%;
+}
+.acc-info {
+  text-align: center;
+  color: black;
+  font-size: 1.2vw;
+}
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav ul li {
+  margin: 20px 0;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 15px;
+  font-size: 1.2vw;
+  background-color: #3b7a79;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.nav ul li a:hover {
+  background-color: #429c9a;
+}
+section {
+  height: 100vh; /* Ensure each section takes full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Styling each section */
+.announcement {
+  background-color: #f3f3f3;
+}
+.records {
+  background-color: #e1e1e1;
+}
+.booking {
+  background-color: #d1d1d1;
+}
