@@ -145,7 +145,7 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   position: relative;
-  bottom: 130px;  /* Moves the element up */
+  bottom: 141px;  /* pag pataas yung px ang gagawin nya ay i-move yung element up */
   left: 0px; /* Moves the element right -- naka zero muna in case na may baguhin, matatandaan ko pa yung code */
   max-height: 300px; /* Set the height limit for the scrollable area */
   overflow-y: scroll;  /* Allows vertical scrolling if yung content sa loob ay lagpas na dun sa sakop ng status section*/
